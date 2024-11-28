@@ -1,11 +1,11 @@
 <?php
 
-namespace Yansongda\Pay\Gateways\Wechat;
+namespace Lr001001\Newpay\Gateways\Wechat;
 
-use Yansongda\Pay\Events;
-use Yansongda\Pay\Exceptions\GatewayException;
-use Yansongda\Pay\Exceptions\InvalidArgumentException;
-use Yansongda\Pay\Exceptions\InvalidSignException;
+use Lr001001\Newpay\Events;
+use Lr001001\Newpay\Exceptions\GatewayException;
+use Lr001001\Newpay\Exceptions\InvalidArgumentException;
+use Lr001001\Newpay\Exceptions\InvalidSignException;
 use Yansongda\Supports\Collection;
 
 class PosGateway extends Gateway

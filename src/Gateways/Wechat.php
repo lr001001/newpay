@@ -1,20 +1,20 @@
 <?php
 
-namespace Yansongda\Pay\Gateways;
+namespace Lr001001\Newpay\Gateways;
 
 use Exception;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-use Yansongda\Pay\Contracts\GatewayApplicationInterface;
-use Yansongda\Pay\Contracts\GatewayInterface;
-use Yansongda\Pay\Events;
-use Yansongda\Pay\Exceptions\GatewayException;
-use Yansongda\Pay\Exceptions\InvalidArgumentException;
-use Yansongda\Pay\Exceptions\InvalidGatewayException;
-use Yansongda\Pay\Exceptions\InvalidSignException;
-use Yansongda\Pay\Gateways\Wechat\Support;
-use Yansongda\Pay\Log;
+use Lr001001\Newpay\Contracts\GatewayApplicationInterface;
+use Lr001001\Newpay\Contracts\GatewayInterface;
+use Lr001001\Newpay\Events;
+use Lr001001\Newpay\Exceptions\GatewayException;
+use Lr001001\Newpay\Exceptions\InvalidArgumentException;
+use Lr001001\Newpay\Exceptions\InvalidGatewayException;
+use Lr001001\Newpay\Exceptions\InvalidSignException;
+use Lr001001\Newpay\Gateways\Wechat\Support;
+use Lr001001\Newpay\Log;
 use Yansongda\Supports\Collection;
 use Yansongda\Supports\Config;
 use Yansongda\Supports\Str;

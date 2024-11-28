@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Pay\Events;
+namespace Lr001001\Newpay\Events;
 
 class PayStarted extends Event
 {

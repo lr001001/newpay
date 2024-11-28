@@ -1,12 +1,12 @@
 <?php
 
-namespace Yansongda\Pay\Gateways\Alipay;
+namespace Lr001001\Newpay\Gateways\Alipay;
 
-use Yansongda\Pay\Contracts\GatewayInterface;
-use Yansongda\Pay\Events;
-use Yansongda\Pay\Exceptions\GatewayException;
-use Yansongda\Pay\Exceptions\InvalidConfigException;
-use Yansongda\Pay\Exceptions\InvalidSignException;
+use Lr001001\Newpay\Contracts\GatewayInterface;
+use Lr001001\Newpay\Events;
+use Lr001001\Newpay\Exceptions\GatewayException;
+use Lr001001\Newpay\Exceptions\InvalidConfigException;
+use Lr001001\Newpay\Exceptions\InvalidSignException;
 use Yansongda\Supports\Collection;
 
 class TransferGateway implements GatewayInterface

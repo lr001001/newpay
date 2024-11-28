@@ -1,15 +1,15 @@
 <?php
 
-namespace Yansongda\Pay\Gateways\Alipay;
+namespace Lr001001\Newpay\Gateways\Alipay;
 
 use Exception;
-use Yansongda\Pay\Events;
-use Yansongda\Pay\Exceptions\GatewayException;
-use Yansongda\Pay\Exceptions\InvalidArgumentException;
-use Yansongda\Pay\Exceptions\InvalidConfigException;
-use Yansongda\Pay\Exceptions\InvalidSignException;
-use Yansongda\Pay\Gateways\Alipay;
-use Yansongda\Pay\Log;
+use Lr001001\Newpay\Events;
+use Lr001001\Newpay\Exceptions\GatewayException;
+use Lr001001\Newpay\Exceptions\InvalidArgumentException;
+use Lr001001\Newpay\Exceptions\InvalidConfigException;
+use Lr001001\Newpay\Exceptions\InvalidSignException;
+use Lr001001\Newpay\Gateways\Alipay;
+use Lr001001\Newpay\Log;
 use Yansongda\Supports\Arr;
 use Yansongda\Supports\Collection;
 use Yansongda\Supports\Config;

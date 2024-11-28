@@ -1,18 +1,18 @@
 <?php
 
-namespace Yansongda\Pay\Gateways;
+namespace Lr001001\Newpay\Gateways;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-use Yansongda\Pay\Contracts\GatewayApplicationInterface;
-use Yansongda\Pay\Contracts\GatewayInterface;
-use Yansongda\Pay\Events;
-use Yansongda\Pay\Exceptions\GatewayException;
-use Yansongda\Pay\Exceptions\InvalidArgumentException;
-use Yansongda\Pay\Exceptions\InvalidConfigException;
-use Yansongda\Pay\Exceptions\InvalidGatewayException;
-use Yansongda\Pay\Exceptions\InvalidSignException;
-use Yansongda\Pay\Gateways\Alipay\Support;
+use Lr001001\Newpay\Contracts\GatewayApplicationInterface;
+use Lr001001\Newpay\Contracts\GatewayInterface;
+use Lr001001\Newpay\Events;
+use Lr001001\Newpay\Exceptions\GatewayException;
+use Lr001001\Newpay\Exceptions\InvalidArgumentException;
+use Lr001001\Newpay\Exceptions\InvalidConfigException;
+use Lr001001\Newpay\Exceptions\InvalidGatewayException;
+use Lr001001\Newpay\Exceptions\InvalidSignException;
+use Lr001001\Newpay\Gateways\Alipay\Support;
 use Yansongda\Supports\Collection;
 use Yansongda\Supports\Config;
 use Yansongda\Supports\Str;

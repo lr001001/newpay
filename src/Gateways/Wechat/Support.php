@@ -1,15 +1,15 @@
 <?php
 
-namespace Yansongda\Pay\Gateways\Wechat;
+namespace Lr001001\Newpay\Gateways\Wechat;
 
 use Exception;
-use Yansongda\Pay\Events;
-use Yansongda\Pay\Exceptions\BusinessException;
-use Yansongda\Pay\Exceptions\GatewayException;
-use Yansongda\Pay\Exceptions\InvalidArgumentException;
-use Yansongda\Pay\Exceptions\InvalidSignException;
-use Yansongda\Pay\Gateways\Wechat;
-use Yansongda\Pay\Log;
+use Lr001001\Newpay\Events;
+use Lr001001\Newpay\Exceptions\BusinessException;
+use Lr001001\Newpay\Exceptions\GatewayException;
+use Lr001001\Newpay\Exceptions\InvalidArgumentException;
+use Lr001001\Newpay\Exceptions\InvalidSignException;
+use Lr001001\Newpay\Gateways\Wechat;
+use Lr001001\Newpay\Log;
 use Yansongda\Supports\Collection;
 use Yansongda\Supports\Config;
 use Yansongda\Supports\Str;

@@ -1,13 +1,13 @@
 <?php
 
-namespace Yansongda\Pay;
+namespace Lr001001\Newpay;
 
 use Exception;
-use Yansongda\Pay\Contracts\GatewayApplicationInterface;
-use Yansongda\Pay\Exceptions\InvalidGatewayException;
-use Yansongda\Pay\Gateways\Alipay;
-use Yansongda\Pay\Gateways\Wechat;
-use Yansongda\Pay\Listeners\KernelLogSubscriber;
+use Lr001001\Newpay\Contracts\GatewayApplicationInterface;
+use Lr001001\Newpay\Exceptions\InvalidGatewayException;
+use Lr001001\Newpay\Gateways\Alipay;
+use Lr001001\Newpay\Gateways\Wechat;
+use Lr001001\Newpay\Listeners\KernelLogSubscriber;
 use Yansongda\Supports\Config;
 use Yansongda\Supports\Log;
 use Yansongda\Supports\Logger;
